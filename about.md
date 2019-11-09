@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-### ABOUT
 WILL BE UPDATED 
 
 ### EDUCATION & CAREER 

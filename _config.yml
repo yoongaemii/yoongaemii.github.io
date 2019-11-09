@@ -6,7 +6,7 @@
 name: GAEMII
 
 # Short bio or description (displayed in the header)
-description: Data
+description: 데이터 어쩌구 지망생
 
 #
 # Flags below are optional
@@ -24,8 +24,8 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: Archive
-    url: /archive
+  # - name: Archive
+  #   url: /archive
   - name: Tags
     url: /tags
   # - name: Theme
