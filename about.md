@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### ABOUT
+WILL BE UPDATED 
 
-### More Information
+### EDUCATION & CAREER 
 
-A place to include any other types of information that you'd like to include about yourself.
+- Seoul National University College of Liberal Studies 🗓 2014.03 ~ 2020.02
+    - Bachelor of Engineering - Social Computing
+    - Bachelor of Social Science - Sociology
+- LIKE LION at SNU 🗓 2016.09 ~2017.06 
+- SBS Data Journalism Team Analytics Intern 🗓 2018.06 ~ 2018.12
+- Growth Hackers 🗓 2019.03 ~ 2019.12  
+  
+### CONTACT
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[yoonhy557@gmail.com](mailto:yoonhy557@gmail.com)
