@@ -11,14 +11,12 @@ excerpt:
 2019-11-12: pandas getting started function application element-wise 전까지 공부함 https://pandas.pydata.org/pandas-docs/stable/getting_started/basics.html#function-application
 
 ## Useful References
-- encoding: https://www.kaggle.com/lalitsomnathe/data-cleaning-challenge-character-encodings
+- encoding: https://www.kaggle.com/lalitsomnathe/data-cleaning-challenge-character-encodings  
+
 ```python
 import chardet
-
 with open("foreigner/foreigner.txt", 'rb') as rawdata:
     result = chardet.detect(rawdata.read(10000))
-
-print(result)
 ```
 
 - 결측치의 종류와 그에 따른 적절한 처리법: https://eda-ai-lab.tistory.com/14
