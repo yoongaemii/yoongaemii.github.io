@@ -2,7 +2,7 @@
 layout: post
 title: geeks for geeks로 알고리즘 공부하기
 tags:
-  - basic
+  - Basic
   - study-note
 excerpt: 
 ---
