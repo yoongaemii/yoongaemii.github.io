@@ -15,7 +15,7 @@ array와 linked list를 제외했다. 조금 보니 문제들이 너무 쉽거�
 
 
 ## 1. Array
-https://www.geeksforgeeks.org/array-data-structure/
+(https://www.geeksforgeeks.org/array-data-structure/)
   
 - 연속하는 메모리 공간에 아이템을 저장
 - 같은 타입의 아이템을 저장하는데 사용하므로 각 아이템의 위치를 파악하기 용이하다. 그냥 데이터 크기만큼 더하고 빼고 하면 되니까
