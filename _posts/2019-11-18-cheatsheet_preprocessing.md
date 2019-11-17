@@ -20,6 +20,7 @@ with open("foreigner/foreigner.txt", 'rb') as rawdata:
 
 print(result)
 ```
+
 - 결측치의 종류와 그에 따른 적절한 처리법: https://eda-ai-lab.tistory.com/14
 
 
