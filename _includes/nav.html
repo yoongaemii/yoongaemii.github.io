@@ -10,10 +10,16 @@
         <p class="site-description">{{ site.description }}</p>
       </div>
 
-      <nav>
+      <nav> 
         {% for nav in site.navigation %}
-        {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-        <a href="{{ nav.url }}">{{ nav.name }}</a>
+        {% if nav.name=='SwitchLang' %}
+          {% if site.lang == "en" %}
+            {% capture link1 %}{{ site.baseurl_root }}/kr{{ page.url }}{% endcapture %}
+            <a href="{{ link1 }}">Kor</a>
+          {% elsif site.lang == "kr" %}
+            {% capture link2 %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
+            <a href="{{ link2 }}">Eng</a>
+          {% endif %}
         {% else %}
         <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.name }}</a>
         {% endif %}
