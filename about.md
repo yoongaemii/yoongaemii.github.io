@@ -14,9 +14,9 @@ permalink: /about/
 
 ### CAREER & PROJECTS
 
-- Data-Driven Attribution Modeling @IGA Works \| 2019.10 ~ 2019.12
-- Brand Model Proposal @AMOREPACIFIC \| 2019.07
-- SBS Data Journalism Team Analytics Intern \| 2018.06 ~ 2018.12
+- Data-Driven Attribution Modeling @IGA Works \| 2019.10 ~ 2019.12 👉 [후기 읽기]({{site.baseurl}}/juniorPM)
+- Brand Model Proposal @AMOREPACIFIC \| 2019.07 👉 [후기 읽기]({{site.baseurl}}/influencer-model)
+- SBS Data Journalism Team Analytics Intern \| 2018.06 ~ 2018.12 👉 [후기 읽기]({{site.baseurl}}/startwithdata)
 
 ### CONTACT
 
