@@ -2,7 +2,7 @@
 layout: post
 title: "100살 먹은 Decomposing Seasonal Decomposition 이제 그만 쓰라구?"
 tags:
-- time_series
+- statistics
 excerpt: "시계열 데이터(time series) 데이터는 무조건 seasonal decomposition을 하면 된다? statsmodel 패키지의 seasonal_decompose() 문서에는 '보다 고도의 방법론을 사용할 것을 권장'한다고 명시되어 있다. Classical Seasonal Decomposition의 원리를 공부하며 그 한계를 짚어보았다."
 ---
 우리 주변엔 시계열 데이터(time series) 데이터가 참 많다. 시계열 데이터를 다루는 방법도 그만큼 다양하게 발전해왔다. 이번에는 
