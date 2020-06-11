@@ -7,23 +7,6 @@ excerpt: "SQL은 평소에 쓸 일이 없어서 까먹기가 쉽다. 그래서 �
 ---
 > 코드카데미의 SQL: Table Transformation 코스와 [Mode라는 사이트](https://mode.com/sql-tutorial)의 intermediate sql 및 advanced sql 부분을 요약한 것이다.
 
-## expressions
-### CASE ... END
-- 이 구문 자체가 하나의 새로운 칼럼이다. 그래서 `AS`로 이름을 지정해줘야 하는 것
-- `WHEN`이 두 번 이상 나오면 두 번쨰 when 부터는 python의 `elif`와 같은 기능. 즉, 앞선 조건을 통과하지 않은 것에 대해서만 조건을 검사한다
-
-### IFNULL(column, value)
-- column의 값을 표시하되, null이면 value를 채워 넣는다
-```sql
-set @a := -1;
-SELECT A.HOUR, IFNULL(B.COUNT,0) 
-FROM (SELECT @a:=@a+1 as HOUR FROM ANIMAL_OUTS) A 
-LEFT JOIN (SELECT HOUR(DATETIME) as HOUR, COUNT(*) as COUNT 
-  FROM ANIMAL_OUTS 
-  GROUP BY HOUR(DATETIME)) B
-ON A.HOUR = B.HOUR 
-WHERE A.HOUR<=23
-```
 
 ## JOIN
 ### primary key
