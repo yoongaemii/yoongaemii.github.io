@@ -2,7 +2,7 @@
 layout: post
 title: "나 보려고 만든 SQL 요약 정리"
 tags:
-- sql
+  - sql
 excerpt: "SQL은 평소에 쓸 일이 없어서 까먹기가 쉽다. 그래서 공부하면서 조금씩 정리한 요약 노트!"
 ---
 > 코드카데미의 SQL: Table Transformation 코스와 [Mode라는 사이트](https://mode.com/sql-tutorial)의 intermediate sql 및 advanced sql 부분을 요약한 것이다.
