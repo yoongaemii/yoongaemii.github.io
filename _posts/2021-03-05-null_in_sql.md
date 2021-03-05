@@ -6,6 +6,7 @@ tags:
     - Database
 excerpt: "DISTINCT는 null 값까지 셀까? GROUP BY를 하면 null값을 가진 행들도 하나의 그룹으로 묶일까? 동일한 뷰에 대해서 COUNT(*)를 실행한 결과와 특정한 칼럼에 대해 COUNT() 함수를 실행할 결과는 왜 달라지는 걸까?"
 ---
+<br>
 - DISTINCT는 null 값까지 셀까? ⭕️
 - GROUP BY를 하면 null값을 가진 행들도 하나의 그룹으로 묶일까? ⭕️
 - 동일한 뷰에 대해서 COUNT(*)를 실행한 결과와 특정한 칼럼에 대해 COUNT() 함수를 실행할 결과는 왜 달라지는 걸까? -> COUNT(*)은 전체 행의 개수를, COUNT(칼럼명)은 해당 칼럼에서 null값을 제외한 행의 개수를 세기 때문
